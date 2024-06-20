@@ -1,0 +1,1046 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.heading{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    background-image: url(ASSET/pexels-djordje-cvetkovic-7162902-6389818\(1\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+}
+nav{
+    padding-left: 2%;
+    position: fixed;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 2px 40px;
+    color: black;
+    transition: 0.5s;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(145, 143, 143);
+}
+button{
+    font-size: 15px;
+    background-color: black;
+    color: aliceblue;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.sear-input{
+    padding-left: 20px;
+    font-size: 15px;
+    padding: 3px 3px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+/* defoult style*/
+
+
+a{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+h1{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+h3{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+h2{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+p{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* defoult style*/
+
+
+.sear a{
+    padding-left: 40px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.sear a:hover{
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+
+}
+.sear input{
+    padding-left: 20px;
+    font-size: 15px;
+    padding: 3px 3px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.main-im img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.main-im-text{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    position: relative;
+    margin-left: 60%;
+    top: 35vh;
+}
+.main-im-text-a{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    padding: 5px 15px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 25px;
+    transition: 0.3s;
+}
+.main-im-text-a:hover{
+    font-weight: 400;
+    color: black;
+    font-size: 27px;
+    background-color: rgba(255, 255, 255, 0.103);
+
+}
+.main-im-text-h1{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-weight: 520;
+    font-size: 60px;
+    text-transform: capitalize; 
+    margin-bottom: 20px;
+}
+
+
+/* section 1*/
+
+.catagory-box{
+    margin-top: 10vh;
+    width: 100%;
+    padding: 60px 0;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    column-gap: 10vh;
+}
+
+.catagory-box-data{
+    position: relative;
+    width: 650px;
+    height: 600px;
+    background-color: black;
+}
+.catagory-box-data h3{
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    top: 280px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.catagory-box-data a{
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    top: 330px;
+    left: 270px;
+    border: 1px solid white;
+    padding: 5px 5px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.catagory-box-data a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.catagory-box-imag-1 img{
+    max-width: 294px;
+    max-height: 418px;
+    transition: 0.3S;
+}
+.catagory-box-imag-2 img{
+    max-width: 294px;
+    max-height: 418px;
+    transition: 0.3s;
+}
+.catagory-box-imag-1 h3{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-transform:capitalize;
+}
+.catagory-box-imag-2 h3{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-transform:capitalize;
+}
+.catagory-box-imag-1{
+    line-height: 10px;
+}
+.catagory-box-imag-2{
+    line-height: 10px;
+}
+.catagory-box-cart-1{
+    display: flex;
+    column-gap: 7vh;
+}
+.catagory-box-cart-1 a{
+    font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+    padding: 7px 5px;
+    text-align: end;
+    margin: auto;
+    transition: 0.5s;
+}
+.catagory-box-cart-1 a:hover{
+    background-color: #e4d8d8;
+    color: black;
+}
+.catagory-box-pic:hover{
+    transform: scale(1.1);
+}
+
+.catagory-box-size-0 input{
+    display: none;
+}
+.catagory-box-size-0 label{
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-0 label::before{
+    content: "";
+
+}
+.catagory-box-size-0 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+/*.catagory-box-size-1*/
+
+.catagory-box-size-1 input{
+    display: none;
+}
+.catagory-box-size-1 label{
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-1 label::before{
+    content: "";
+
+}
+.catagory-box-size-1 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+/*sectiom 2*/
+
+
+.catagory-box-2{
+    align-self: center;
+    justify-content: center;
+    margin-top: 20vh;
+    width: auto;
+    padding: 60px 0;
+    background-color:aliceblue;
+    display: flex;
+    column-gap: 3vh;
+    margin-left: 10%;
+}
+
+.catagory-box-imag-3 img{
+    margin-bottom: 10px;
+    max-width: 294px;
+    max-height: 418px;
+    transition: 0.3S;
+}
+.catagory-box-imag-4 img{
+    margin-bottom: 10px;
+    max-width: 294px;
+    max-height: 418px;
+    transition: 0.3s;
+}
+.catagory-box-imag-3 h3{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-transform:capitalize;
+}
+.catagory-box-imag-4 h3{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-transform:capitalize;
+}
+.catagory-box-imag-3{
+    line-height: 10px;
+}
+.catagory-box-imag-4{
+    line-height: 10px;
+}
+.catagory-box-cart-2{
+    display: flex;
+    column-gap: 7vh;
+}
+.catagory-box-cart-2 a{
+    font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+    padding: 7px 5px;
+    text-align: end;
+    margin: auto;
+    transition: 0.5s;
+}
+.catagory-box-cart-2 a:hover{
+    background-color: #e4d8d8;
+    color: black;
+}
+.catagory-box-pic:hover{
+    transform: scale(1.1);
+}
+.catagory-box-bg-img img{
+    max-width: 480px;
+    max-height: 732px;
+}
+.catagory-box-title{
+    margin-top: 20vh;
+    margin-left: 20px;
+
+}
+.catagory-box-title h1{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-weight: 520;
+    font-size: 60px;
+    text-transform: capitalize; 
+    margin-bottom: 3vh;
+}
+.catagory-box-title p{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: capitalize; 
+    margin-bottom: 10vh;
+}
+.catagory-box-title-a{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    padding: 5px 15px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+    transition: 0.3s;
+}
+.catagory-box-title-a:hover{
+    font-weight: 400;
+    color: black;
+    font-size: 32px;
+    background-color: rgba(255, 255, 255, 0.103);
+}
+.catagory-box-bg-img{
+    margin-top: -10vh;
+}
+
+/*.catagory-box-size-2*/
+
+.catagory-box-size-2 input{
+    display: none;
+}
+.catagory-box-size-2 label{
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-2 label::before{
+    content: "";
+
+}
+.catagory-box-size-2 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+/*.catagory-box-size-3*/
+
+.catagory-box-size-3 input{
+    display: none;
+}
+.catagory-box-size-3 label{
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-3 label::before{
+    content: "";
+
+}
+.catagory-box-size-3 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+/*sectiom 3*/
+
+.section-3{
+    align-self: center;
+    justify-content: center;
+    margin-top: 15vh;
+    width: auto;
+    padding: 60px 0;
+    background-color:aliceblue;
+    display: flex;
+    column-gap: 2vh;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.image-1{
+    width: auto;
+    height: 500px;
+    flex: 1;
+    background-color:#e4d8d8;
+    cursor: pointer;
+    transition: 1s;
+    background-image: url(ASSET/napat-saeng-1w7Z_BzML2Y-unsplash\ -\ Copy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.image-1:hover{
+    flex: 2;
+}
+.image-1 img{
+    padding: 2PX 2px;
+    max-width: 864px;
+    max-height: 901px;
+    transition: 1s;
+}
+
+.image-2{
+    width: auto;
+    height: 500px;
+    flex: 1;
+    background-color: #e4d8d8;
+    cursor: pointer;
+    transition: 1s;
+    background-image: url(ASSET/pexels-anh-nguyen-517648218-20346655\ -\ Copy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.image-2:hover{
+    flex: 2;
+}
+
+.image-3{
+    width: auto;
+    height: 500px;
+    flex: 1;
+    background-color: #e4d8d8;
+    cursor: pointer;
+    transition: 1s;
+    background-image: url(ASSET/fashion-3555646.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.image-3:hover{
+    flex: 2;
+}
+.image-1 h2{
+    color: aliceblue;
+    text-align: end;
+    font-size: 30px;
+    padding: 10PX 20px;
+}
+.image-2 h2{
+    color: aliceblue;
+    text-align: end;
+    font-size: 30px;
+    padding: 10PX 20px;
+}
+.image-3 h2{
+    color: aliceblue;
+    text-align: end;
+    font-size: 30px;
+    padding: 10PX 20px;
+}
+
+.Fav-par{
+    margin-left: 5%;
+}
+.Fav-par h2{
+    font-family: "Playwrite FR Moderne", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.Fav-par p{
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+
+/*sectiom 4*/
+
+.section-4{
+    width: auto;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 10vh;
+    margin-top: 15vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.section-4-img{
+    max-width: 294px;
+    max-height: 418px;
+    transition: 0.5s;
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+.section-4-img:hover{
+    transform: scale(1.1);
+}
+
+.section-4-data-1 h3{
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-transform:capitalize;
+}
+.section-4-cart{
+    display: flex;
+    column-gap: 16vh;
+    transition: 0.5s;
+}
+.section-4-cart:hover{
+    column-gap: 14vh;
+
+}
+
+.section-4-cart a{
+    font-size: 12px;
+    background-color: black;
+    color: aliceblue;
+    padding: 7px 5px;
+    text-align: end;
+    margin: auto;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.section-4-cart a:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+/*.catagory-box-size-4*/
+
+.catagory-box-size-4 input{
+    display: none;
+}
+.catagory-box-size-4 label{
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-4 label::before{
+    content: "";
+
+}
+.catagory-box-size-4 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+/*.catagory-box-size-5*/
+
+.catagory-box-size-5 input{
+    display: none;
+}
+.catagory-box-size-5 label{
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-5 label::before{
+    content: "";
+
+}
+.catagory-box-size-5 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+/*.catagory-box-size-6*/
+
+.catagory-box-size-6 input{
+    display: none;
+}
+.catagory-box-size-6 label{
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-6 label::before{
+    content: "";
+
+}
+.catagory-box-size-6 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+/*.catagory-box-size-7*/
+
+.catagory-box-size-7 input{
+    display: none;
+}
+.catagory-box-size-7 label{
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-7 label::before{
+    content: "";
+
+}
+.catagory-box-size-7 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+/*sectiom 5*/
+
+.section-5{
+    width: auto;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 5vh;
+}
+
+.section-5-main-img{
+    width: 370px;
+    height: 500px;
+    background-image: url(ASSET/pexels-ron-lach-8396729.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-5-main-img-3 img{
+    max-width: 254px;
+    max-height: 358px;
+}
+.section-5-img-2 h3{
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-transform:capitalize;
+    
+}
+.section-5-img-2 p{
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 10vh;
+    text-transform:capitalize;
+    line-height: 20px;  
+}
+.section-5-img-2 a{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-transform:capitalize;
+    line-height: 20px;
+    background-color: black; 
+    color: aliceblue;
+    padding: 8px 5px; 
+    border: 2px solid black;
+    transition: 0.3s;
+}
+.section-5-img-2 a:hover{
+    border: 2px solid black;
+    color: black;
+    background-color: aliceblue;
+}
+.section-5-img-2{
+    margin-top: 10vh;
+}
+.section-5-main-img-3{
+    margin-top: 17vh;
+}
+
+
+/*blog*/
+
+.blog{
+    background-color: aliceblue;
+    width: auto;
+    padding: 60px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.blog h3{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-transform:capitalize;
+    font-size: 40px;
+}
+.blog p{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-transform:capitalize;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/*sectiom 6*/
+
+.section-6{
+    width: auto;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 3vh;
+    position: relative;
+    background-color: aliceblue;
+
+}
+
+
+.section-6-img{
+    max-width: 400px;
+    max-height: 350px;
+}
+.section-6-img{
+    transition: 0.3s;
+    cursor: pointer;
+}
+.section-6-img:hover{
+    transform: scale(1.1);
+
+}
+
+.section-6-img-1 h5{
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-transform:lowercase;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.section-6-img-1 h2{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-transform:uppercase;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.section-6-img-1 p{
+    font-family: 10px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-transform:capitalize;
+    margin-top: 3vh;
+    margin-bottom: 7vh;
+}
+.section-6-img-1 a{
+    font-family: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-transform:capitalize;
+    background-color: black;
+    color: aliceblue;
+    padding: 7px 10px;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+.section-6-img-1 a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+/*mail me*/
+
+.mail-me{
+    width: 100%;
+    height: 190vh;
+    position: absolute;
+}
+.mail-me-1{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    background-image: url(ASSET/pexels-hillaryfox-1595387.jpg);
+    background-position:center;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+
+ .mail{
+    text-align: center;
+    margin-top: 25vh;
+    position: relative;
+}
+
+.mail h3{
+    font-size: 35px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-transform:capitalize;
+    color: aliceblue;
+}
+.mail p{
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-transform:capitalize;
+    color: aliceblue;
+    line-height: 20px;
+}
+.mail-button{
+    background-color: rgba(240, 248, 255, 0.219);
+    margin-left: 85vh;
+    width: fit-content;
+}
+.mail-button button{
+    background-color: rgba(240, 248, 255, 0.13);
+    border: #b1949400;
+}
+.mail-button input{
+    padding: 8px 50px;
+    background-color: rgba(131, 115, 115, 0.068);
+    color: white;
+}
+
+.last-section{
+    column-gap: 2vh;
+    position: relative;
+    width: auto;
+    display: flex;
+    margin-top: 10vh;
+    background-color: aliceblue;
+    height: 50vh;
+
+}
+
+.last-section-1 h2{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 3vh;
+    text-transform: capitalize;
+}
+
+.last-section-ul-a{
+    line-height: 25px;
+    text-transform: capitalize;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    transition: 0.5s;
+    font-weight: 500;
+}
+.last-section-ul-p{
+    line-height: 18px;
+    text-transform: capitalize;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.last-section-1{
+    margin-left: 20vh;
+    width: auto;
+}
+
+.student-id{
+    margin-top: -10vh;
+    margin-bottom: 2vh;
+    position: relative;
+    text-align: center;
+
+}
+.student-id a{
+    margin-bottom: 2vh;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+}

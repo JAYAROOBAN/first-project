@@ -1,0 +1,564 @@
+
+/* defoult style*/
+
+
+a{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+h1{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+h3{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+h2{
+    text-transform: capitalize;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+p{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* defoult style*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.heading{
+    position:relative;
+    width: 100%;
+    height: 20vh;
+    padding: 10px;
+}
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+}
+nav{
+    padding-left: 2%;
+    position: fixed;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 2px 40px;
+    color: black;
+    transition: 0.3s;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    font-size: 18px;
+    color: rgb(164, 164, 179);
+}
+button{
+    font-size: 15px;
+    background-color: black;
+    color: aliceblue;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.sear a{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    padding-left: 40px;
+    transition: 0.3s;
+}
+.sear a:hover{
+    font-size: 18px;
+    color: rgb(180, 171, 171);
+
+}
+.sear input{
+    padding-left: 20px;
+    font-size: 15px;
+    padding: 3px 3px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+/*header*/
+
+
+header h1{
+    margin-bottom: 2vh;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: none;
+    cursor: pointer;
+}
+header ul{
+    margin-right: 6vh;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+header ul li{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+}
+header ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+}
+.header-img{
+    max-width: 10px;
+    max-height: 10px;
+}
+
+
+/*section-1-row*/
+
+.section-1-row{
+    width: auto;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 10vh;
+    margin-top: 10vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.section-4-img{
+    max-width: 294px;
+    max-height: 418px;
+    transition: 0.5s;
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+.section-4-img:hover{
+    transform: scale(1.1);
+}
+
+.section-4-data-1 h3{
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-transform:capitalize;
+}
+.section-4-cart{
+    display: flex;
+    column-gap: 16vh;
+    transition: 0.5s;
+}
+.section-4-cart:hover{
+    column-gap: 14vh;
+
+}
+
+.section-4-cart a{
+    font-size: 12px;
+    background-color: black;
+    color: aliceblue;
+    padding: 7px 5px;
+    text-align: end;
+    margin: auto;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.section-4-cart a:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+/*.catagory-box-size-1*/
+
+.catagory-box-size-1 input{
+    display: none;
+}
+.catagory-box-size-1 label{
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-1 label::before{
+    content: "";
+
+}
+.catagory-box-size-1 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+/*.catagory-box-size-2*/
+
+.catagory-box-size-2 input{
+    display: none;
+}
+.catagory-box-size-2 label{
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-2 label::before{
+    content: "";
+
+}
+.catagory-box-size-2 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+/*.catagory-box-size-3*/
+
+.catagory-box-size-3 input{
+    display: none;
+}
+.catagory-box-size-3 label{
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-3 label::before{
+    content: "";
+
+}
+.catagory-box-size-3 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+/*.catagory-box-size-4*/
+
+.catagory-box-size-4 input{
+    display: none;
+}
+.catagory-box-size-4 label{
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-4 label::before{
+    content: "";
+
+}
+.catagory-box-size-4 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+/*section-2-row*/
+
+.section-2-row{
+    width: auto;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 10vh;
+    margin-top: 5vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*.catagory-box-size-5*/
+
+.catagory-box-size-5 input{
+    display: none;
+}
+.catagory-box-size-5 label{
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-5 label::before{
+    content: "";
+
+}
+.catagory-box-size-5 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+/*.catagory-box-size-6*/
+
+.catagory-box-size-6 input{
+    display: none;
+}
+.catagory-box-size-6 label{
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-6 label::before{
+    content: "";
+
+}
+.catagory-box-size-6 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+/*.catagory-box-size-7*/
+
+.catagory-box-size-7 input{
+    display: none;
+}
+.catagory-box-size-7 label{
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-7 label::before{
+    content: "";
+
+}
+.catagory-box-size-7 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+/*.catagory-box-size-8*/
+
+.catagory-box-size-8 input{
+    display: none;
+}
+.catagory-box-size-8 label{
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-8 label::before{
+    content: "";
+
+}
+.catagory-box-size-8 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+/*section-3-row*/
+
+.section-3-row{
+    width: auto;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 10vh;
+    margin-top: 5vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*.catagory-box-size-9*/
+
+.catagory-box-size-9 input{
+    display: none;
+}
+.catagory-box-size-9 label{
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-9 label::before{
+    content: "";
+
+}
+.catagory-box-size-9 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+/*.catagory-box-size-10*/
+
+.catagory-box-size-10 input{
+    display: none;
+}
+.catagory-box-size-10 label{
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-10 label::before{
+    content: "";
+
+}
+.catagory-box-size-10 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+/*.catagory-box-size-11*/
+
+.catagory-box-size-11 input{
+    display: none;
+}
+.catagory-box-size-11 label{
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-11 label::before{
+    content: "";
+
+}
+.catagory-box-size-11 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+/*.catagory-box-size-12*/
+
+.catagory-box-size-12 input{
+    display: none;
+}
+.catagory-box-size-12 label{
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.catagory-box-size-12 label::before{
+    content: "";
+
+}
+.catagory-box-size-12 input:checked + label{
+    background-color: black;
+    color: antiquewhite;
+}
+
+.student-id{
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    position: relative;
+    text-align: center;
+
+}
+.student-id a{
+    margin-bottom: 2vh;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+}
